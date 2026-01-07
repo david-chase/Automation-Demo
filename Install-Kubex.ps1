@@ -1,0 +1,2 @@
+Write-Host Running command \"helm upgrade --install --create-namespace -n kubex kubex densify/kubex-automation-stack -f .\values-taipei.yaml\" -ForegroundColor Green
+helm upgrade --install --create-namespace -n kubex kubex densify/kubex-automation-stack -f .\values-taipei.yaml

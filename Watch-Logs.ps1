@@ -1,0 +1,1 @@
+kubectl logs -l app=kubex-controller -n kubex -f
